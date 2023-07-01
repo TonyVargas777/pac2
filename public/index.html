@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAC_2_MODULO_2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="titulo">
+        <div>
+            <h1>LAS MEJORES SERIES DE IMBd.</h1>
+            <h2>Buscador Avanzado</h2>
+            <h4>Busca por título, plataforma o descripción</h4>
+            <input type="text" placeholder="Introduce tus datos" id="serieBuscar" />
+            <button onclick="buscar()">Buscar</button>
+        </div>
+        <div>
+            <img src="./plataformas-de-streaming.jpg_2064308522.webp" alt="plataformas">
+        </div>
+    </div>
+    <!-- <hr> -->
+    <div>
+        <h2>Añade aquí tu serie</h2>
+        <input type="text" placeholder="Título de la serie" id="tituloInsertar" />
+        <input type="text" placeholder="Plataforma" id="plataformaInsertar" />
+        <input type="text" placeholder="Año" id="anyoInsertar" />
+        <input type="text" placeholder="Descripción" id="descripcionInsertar" />
+        <input type="text" placeholder="Nota de la serie" id="notaInsertar" />
+        <input type="text" placeholder="Imagen" id="imagenInsertar" />
+        <input type="text" placeholder="YouTube" id="videoInsertar" />
+        <button onclick="insertar()">Añadir</button>
+    </div>
+    <div>
+        <h2>Edita aquí una serie</h2>
+        <input type="text" placeholder="Título de la serie" id="tituloEditar" />
+        <input type="text" placeholder="Plataforma" id="plataformaEditar" />
+        <input type="text" placeholder="Año" id="anyoEditar" />
+        <input type="text" placeholder="Descripción" id="descripcionEditar" />
+        <input type="text" placeholder="Nota de la serie" id="notaEditar" />
+        <input type="text" placeholder="Imagen" id="imagenEditar" />
+        <input type="text" placeholder="YouTube" id="videoEditar" />
+        <button onclick="editar()">Editar</button>
+    </div>
+    <hr>
+    <div id="print">
+
+    </div>
+    <script src="demo.js"></script>
+</body>
+
+</html>
